@@ -1,0 +1,9 @@
+name: "CrowdinCopyDeploy"
+description: "Create a Crowdin's Over-The-Air distribution environment on local server"
+author: "Ghost-chu"
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: gray-dark
