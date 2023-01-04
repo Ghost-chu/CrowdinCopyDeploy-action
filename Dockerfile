@@ -11,5 +11,6 @@ LABEL homepage="https://github.com/Ghost-chu/CrowdinCopyDeploy"
 LABEL maintainer="Ghost_chu <ghostchu@111.com>"
 
 ADD entrypoint.sh /entrypoint.sh
+RUN chmod +x entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
