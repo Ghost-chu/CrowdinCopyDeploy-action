@@ -14,4 +14,6 @@ ADD entrypoint.sh /entrypoint.sh
 ADD crowdincopydeploy.jar /crowdincopydeploy.jar
 RUN chmod +x entrypoint.sh
 
+WORKDIR /
+
 ENTRYPOINT ["/entrypoint.sh"]
