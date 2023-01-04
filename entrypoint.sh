@@ -27,4 +27,4 @@ export CROWDIN_PROJECT_BRANCH_ID=$CROWDIN_PROJECT_BRANCH_ID
 export CROWDIN_PROJECT_ID=$CROWDIN_PROJECT_ID
 export DEPLOY_PATH=$DEPLOY_PATH
 
-java -Xmx2G -jar crowdincopydeploy-1.0-SNAPSHOT.jar
+java -Xmx2G -jar crowdincopydeploy.jar
